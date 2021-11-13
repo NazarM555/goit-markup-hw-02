@@ -23,15 +23,18 @@ body {
   text-decoration: none;
 }
 
-/* Хедер */
+/* ---------------------------------------ХЕДЕР----------------------------------- */
 
 .header-logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--header-logo-color);
 }
 
-/* чи краще так .header-logo > .accent ??? */
-.accent {
+.link .accent {
   color: var(--accent-color);
 }
 
@@ -69,7 +72,7 @@ body {
   color: var(--accent-color);
 }
 
-/* Герой */
+/* ---------------------------------------ГЕРОЙ----------------------------------- */
 
 .hero-title {
   font-weight: 900;
@@ -94,9 +97,18 @@ body {
   background-color: var(--accent-color);
 }
 
-/* Просто мейн */
+/* ---------------------------------------МЕЙН----------------------------------- */
 
-.work-title {
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+.third-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -104,3 +116,26 @@ body {
   text-transform: uppercase;
   color: var(--second-title-color);
 }
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.team-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.team-list .name {
+  font-weight: 700;
+  color: var(--second-title-color);
+}
+
+/* ---------------------------------------ФУТЕР----------------------------------- */
