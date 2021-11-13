@@ -52,15 +52,7 @@ body {
   color: var(--accent-color);
 }
 
-.header-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-}
-
-.header-tel {
+.header-contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -68,9 +60,18 @@ body {
   color: var(--main-text-color);
 }
 
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+
+.list-item > .header-contact {
+  color: var(--accent-color);
+}
+
 /* Герой */
 
-.main-title {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
@@ -78,4 +79,16 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  background-color: #2f303a;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-button-color);
 }
