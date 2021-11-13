@@ -1,14 +1,14 @@
 :root {
   --main-title-color: #ffffff;
   --second-title-color: #212121;
-  --maintext-color: #757575;
+  --main-text-color: #757575;
+  --second-text-color: #212121;
+  --third-text-color: #ffffff;
   --header-logo-color: #000000;
-  --footer-logo-color: #ffffff;
-  --footer-address-color: #ffffff;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
-  --button-color: #212121;
-  --button-accent-color: #2196f3;
+  --main-button-color: #212121;
+  --second-button-color: #ffffff;
 }
 
 body {
@@ -21,4 +21,12 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
 }
