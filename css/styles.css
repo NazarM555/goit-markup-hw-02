@@ -9,6 +9,7 @@
   --accent-color: #2196f3;
   --main-button-color: #ffffff;
   --second-button-color: #212121;
+  --background-button-color: #f5f4fa;
 }
 
 body {
@@ -46,12 +47,11 @@ body {
   color: var(--second-text-color);
 }
 
-.header-link:hover,
-.header-link:focus {
+.main-list > .link {
   color: var(--accent-color);
 }
 
-.header-item > .link {
+.portfolio-list > .link {
   color: var(--accent-color);
 }
 
@@ -63,16 +63,31 @@ body {
   color: var(--main-text-color);
 }
 
-.header-contact:hover,
-.header-contact:focus {
-  color: var(--accent-color);
-}
-
 .list-item > .header-contact {
   color: var(--accent-color);
 }
 
-/* ---------------------------------------ГЕРОЙ----------------------------------- */
+.header .link:hover,
+.header .link:focus {
+  color: var(--accent-color);
+}
+
+/* якщо лого не треба ховерити то активую
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+*/
+
+/*
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+*/
+
+/* ---------------------------------------МЕЙН----------------------------------- */
 
 .hero-title {
   font-weight: 900;
@@ -96,8 +111,6 @@ body {
   color: var(--main-button-color);
   background-color: var(--accent-color);
 }
-
-/* ---------------------------------------МЕЙН----------------------------------- */
 
 .second-title {
   font-weight: 700;
@@ -138,6 +151,31 @@ body {
   color: var(--second-title-color);
 }
 
+/* -------------------------------------Портфоліо початок----------------------*/
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.first.btn {
+  color: var(--main-button-color);
+  background-color: var(--accent-color);
+}
+
+.second.btn {
+  color: var(--second-button-color);
+  background-color: var(--background-button-color);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--accent-color);
+}
+
 /* ---------------------------------------ФУТЕР----------------------------------- */
 
 .footer {
@@ -165,4 +203,11 @@ body {
 
 .footer-info .address {
   color: var(--third-text-color);
+}
+
+/* якщо лого не треба буде ховерити то зміню */
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
 }

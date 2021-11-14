@@ -15,31 +15,33 @@
   </head>
   <body>
     <!-------------------------------------------------ХЕДЕР--------------------------------->
-    <header>
+    <header class="header">
       <nav>
-        <a class="link" href="/" lang="en"><span class="accent">Web</span>Studio</a>
+        <a class="link header-logo" href="/" lang="en"><span class="accent">Web</span>Studio</a>
         <ul class="list">
-          <li><a class="link" href="">Студия</a></li>
-          <li><a class="link" href="">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
+          <li><a class="link header-link" href="">Студия</a></li>
+          <li class="portfolio-list"><a class="link header-link" href="">Портфолио</a></li>
+          <li><a class="link header-link" href="">Контакты</a></li>
         </ul>
       </nav>
       <ul class="list">
-        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="link header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="link header-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <!-------------------------------------------------МЕЙН--------------------------------->
     <main>
       <section>
-        <!-- Логическое название для секции, которое нужно будет потом скрыть-->
-        <h1>Портфолио</h1>
+        <!-- Логічна назва для секції, пізніше потрібно сховати -->
+        <h1>Галерея</h1>
         <ul class="list">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button class="first btn" type="button">Все</button></li>
+          <li><button class="second btn" type="button">Веб-сайты</button></li>
+          <li><button class="second btn" type="button">Приложения</button></li>
+          <li><button class="second btn" type="button">Дизайн</button></li>
+          <li><button class="second btn" type="button">Маркетинг</button></li>
         </ul>
         <ul class="list">
           <li>
@@ -124,13 +126,13 @@
       </section>
     </main>
     <!-------------------------------------------------ФУТЕР--------------------------------->
-    <footer>
+    <footer class="footer">
       <address>
-        <a class="link" href="/" lang="en"><span class="accent">Web</span>Studio</a>
-        <ul class="list">
+        <a class="link footer-logo" href="/" lang="en"><span class="accent">Web</span>Studio</a>
+        <ul class="list footer-info">
           <li>
             <a
-              class="link"
+              class="link address"
               href="https://goo.gl/maps/paUkgTumKRccmGTw9"
               target="_blank"
               rel="noopener noreferrer"
