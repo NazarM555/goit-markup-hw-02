@@ -139,3 +139,30 @@ body {
 }
 
 /* ---------------------------------------ФУТЕР----------------------------------- */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+
+.footer-info .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-contact-color);
+}
+
+.footer-info .address {
+  color: var(--third-text-color);
+}
