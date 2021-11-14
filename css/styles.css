@@ -47,11 +47,7 @@ body {
   color: var(--second-text-color);
 }
 
-.main-list > .link {
-  color: var(--accent-color);
-}
-
-.about-link > .link {
+.current .link {
   color: var(--accent-color);
 }
 
@@ -72,7 +68,7 @@ body {
   color: var(--accent-color);
 }
 
-/* якщо лого не треба ховерити то активую
+/* якщо лого не треба ховерити то зміню на це >>
 
 .header-link:hover,
 .header-link:focus {
