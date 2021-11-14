@@ -68,10 +68,17 @@ body {
   color: var(--accent-color);
 }
 
+.header .link:hover,
+.header .link:focus {
+  color: var(--accent-color);
+}
+
+/* чомусь не ховерить силки в мейні портфоліо....
 .list .link:hover,
 .list .link:focus {
   color: var(--accent-color);
 }
+*/
 
 /* якщо лого не треба ховерити то зміню на це >>
 
@@ -124,7 +131,6 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-title-color);
 }
 
 .third-title {
@@ -133,7 +139,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--second-title-color);
 }
 
 .text {
