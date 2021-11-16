@@ -149,7 +149,7 @@ body {
   color: var(--main-text-color);
 }
 
-.about-list {
+.third-section .list {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -157,8 +157,8 @@ body {
   color: var(--main-text-color);
 }
 
-.about-list .name {
-  font-weight: 700;
+.list .name {
+  font-weight: 500;
   color: var(--second-title-color);
 }
 
@@ -203,6 +203,15 @@ body {
   color: var(--main-text-color);
 }
 
+.about-title:hover,
+.about-title:focus {
+  color: var(--accent-color);
+}
+
+.about-after-title:hover,
+.about-after-title:focus {
+  color: var(--accent-color);
+}
 /* -------------------------------------Портфоліо закінчення----------------------*/
 
 /* ---------------------------------------ФУТЕР----------------------------------- */
